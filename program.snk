@@ -1,0 +1,10 @@
+@data = 1
+@data = "something"
+
+calc[x,y] -> "${x} is cooler than ${y}"
+
+foo[x] -> 
+    @val = 1
+    x + @val
+
+
